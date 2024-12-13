@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+  <link rel='stylesheet' type="text/css" media='print' href="print.css">
+</head>
+<body>
+  <!-- Cabeçalho -->
+<div id="cabecalho">
+  <div id="logo">
+    <a href="index.html" title="Pagina Inicial">
+      <img src="img\Design.png" alt="3Oitao Imobiliaria">
+    </a>
+  </div>
+  <div id="header-content">
+    <h1>Imobiliária Três Oitão</h1>
+    <h3>Sua Casa è Nossa Satisfação</h3>
+  </div>
+  <div id="header-contato">
+    <ul>
+        <li><a><img src="img\correio-de-voz.png" alt="icone celular">  (66) 9 9999-9999</a></li>
+        <li><a href="https://maps.app.goo.gl/AscR814vSRcyAb476" title="Localizacao"><img src="img\localizacao.png" alt="icone localizacao">  Av. dos Ingás, 3001</a></li> 
+    </ul>
+</div>
+</div>
+
+   <main>
+        <section> 
+            <form id="formulario">
+                <!-- Nenhum campo de formulário necessário aqui, mas pode ser preenchido se necessário -->
+            </form>
+        </section>
+	<h1 id="printh1">Relatorio de Lotes Três Oitão</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Responsável</th>
+                    <th>Telefone</th>
+                    <th>CPF</th>
+                    <th>Bairro</th>
+                    <th>Valor (R$)</th>
+                    <th>Frente (m)</th>
+                    <th>Lateral (m)</th>
+                </tr>
+            </thead>
+            <tbody id="lerTabela"></tbody>
+        </table>
+
+        <!-- Botão para Imprimir -->
+    </main>
+	<button onclick="javascript:window.print()">Imprimir</button>
+<script src="cadastro.js"></script>
+  <!-- Rodapé -->
+	<footer>
+		<p>&copy; 2024 Imobiliária Trez oitao. Todos os direitos reservados.</p>
+		<p><a href="/politica-de-privacidade">Política de Privacidade</a></p>
+	</footer>
+</body>
+
+</html>
